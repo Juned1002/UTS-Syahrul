@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Belanja Toko</title>
+</head>
+<body>
+    <h1>Kalkulator Toko Belanja</h1>
+
+    <label for="nama">Nama Barang :</label><br>
+    <input type="text" id="nama" placeholder="Masukan Nama barang"><br><br>
+    
+    <label for="satuan">Harga Satuan :</label><br>
+    <input type="number" id="satuan" placeholder="Masukan Harga Satuan"><br><br>
+    
+    <label for="jumlah">Jumlah Barang :</label><br>
+    <input type="number" id="jumlah" placeholder="Masukan Jumlah Barang"><br><br>
+    
+    <button onclick="hitungJumlah()">Hitung Harga</button>
+    <label>Status</label>
+    <select>
+        <p>Biasa</p>
+        <p>Member</p>
+    </select>
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+</body>
+</html>
